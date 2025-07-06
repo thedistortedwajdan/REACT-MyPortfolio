@@ -4,7 +4,7 @@ import Sidebar from "./components/Sidebar.jsx";
 function App() {
   return (
     <>
-      <div className="m-0 p-0 w-screen h-screen box-border bg-[#121212]">
+      <div className="w-screen p-[5%] h-screen box-border bg-[#121212] flex justify-center gap-[30%] ">
         <Sidebar />
         <MainInfo />
       </div>
