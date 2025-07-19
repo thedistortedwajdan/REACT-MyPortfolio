@@ -2,7 +2,7 @@ import ProfileImage from "./ProfileImage";
 
 export default function Sidebar() {
   return (
-    <div className="text-white bg-[#1E1E1F] border-[#383838] border-3  h-fit w-fit">
+    <div className="text-white bg-[#1E1E1F] border-[#383838] border-1 rounded-2xl  h-fit w-fit">
       <div className="flex flex-col items-center m-5">
         <ProfileImage />
         <div>Muhammad Wajdan Ismail</div>

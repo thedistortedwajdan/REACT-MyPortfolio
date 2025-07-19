@@ -1,11 +1,13 @@
+import Card from "../components/Card";
+
+import java from "../assets/java.svg";
+import react from "../assets/react.svg";
+import nodejs from "../assets/nodejs.svg";
+import infinity from "../assets/infinity.svg";
+
 function About() {
-  // try {
-  //   alert(window.location);
-  // } catch (error) {
-  //   alert(error);
-  // }
   return (
-    <div className="mr-[2%] bg-blue-700 my-[2%]">
+    <div className="mr-[2%] my-[2%]">
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum accusamus
         eligendi error sed corporis corrupti earum, labore modi asperiores
@@ -21,6 +23,39 @@ function About() {
         adipisci repellat cum eligendi voluptate exercitationem nisi voluptatem
         voluptatibus provident.
       </p>
+      <br />
+      <div>What i'm doing</div>
+      <br />
+      <div className="flex flex-wrap justify-between gap-4">
+        <Card
+          logo={java}
+          title={"Java"}
+          desc={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iusto nobis excepturi accusantium libero beatae."
+          }
+        />
+        <Card
+          logo={react}
+          title={"ReactJS"}
+          desc={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iusto nobis excepturi accusantium libero beatae."
+          }
+        />
+        <Card
+          logo={nodejs}
+          title={"NodeJS"}
+          desc={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iusto nobis excepturi accusantium libero beatae."
+          }
+        />
+        <Card
+          logo={infinity}
+          title={"DevOps"}
+          desc={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iusto nobis excepturi accusantium libero beatae."
+          }
+        />
+      </div>
     </div>
   );
 }
