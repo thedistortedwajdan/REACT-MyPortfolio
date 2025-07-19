@@ -1,6 +1,11 @@
 function About() {
+  // try {
+  //   alert(window.location);
+  // } catch (error) {
+  //   alert(error);
+  // }
   return (
-    <div className="bg-blue-600 pl-[1%]">
+    <div className="mr-[2%] bg-blue-700 my-[2%]">
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum accusamus
         eligendi error sed corporis corrupti earum, labore modi asperiores

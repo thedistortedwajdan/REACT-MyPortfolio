@@ -6,7 +6,7 @@ import Contact from "../pages/Contact";
 
 function Router() {
   return (
-    <div className>
+    <div>
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/resume" element={<Resume />} />
