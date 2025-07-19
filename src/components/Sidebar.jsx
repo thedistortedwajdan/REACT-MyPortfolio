@@ -1,4 +1,8 @@
 import ProfileImage from "./ProfileImage";
+import mail from "../assets/mail.svg";
+import github from "../assets/github.svg";
+import linkedin from "../assets/linkedin.svg";
+import phone from "../assets/phone.svg";
 
 export default function Sidebar() {
   return (
@@ -9,10 +13,46 @@ export default function Sidebar() {
         <div>Software Engineer</div>
         <div className="bg-[#383838] w-[100%] h-[1px] "></div>
         <ul className="items-start flex flex-col w-[100%] gap-5 ">
-          <li>email</li>
-          <li>github</li>
-          <li>linkedin</li>
-          <li>phone</li>
+          <li className="flex items-center justify-start gap-2">
+            <img src={mail} alt="My Profile" className="w-7" />
+            <div>
+              <div>EMAIL</div>
+              <div>wajdan.mohammad@gmail.com</div>
+            </div>
+          </li>
+          <li className="flex items-center justify-start gap-2">
+            <img src={github} alt="My Profile" className="w-7" />
+            <div>
+              <div>GITHUB</div>{" "}
+              <a
+                href="https://github.com/thedistortedwajdan"
+                target="_blank"
+                className="hover:text-[#FDC463] transition duration-300"
+              >
+                github.com/thedistortedwajdan
+              </a>
+            </div>
+          </li>
+          <li className="flex items-center justify-start gap-2">
+            <img src={linkedin} alt="My Profile" className="w-7" />
+            <div>
+              <div>LINKEDIN</div>{" "}
+              <a
+                href="https://www.linkedin.com/in/wajdan-ismail/"
+                target="_blank"
+                className="hover:text-[#FDC463] transition duration-300"
+              >
+                linkedin.com/in/wajdan-ismail/
+              </a>
+            </div>
+          </li>
+          <li className="flex items-center justify-start gap-2">
+            <img src={phone} alt="My Profile" className="w-7" />
+            <div>
+              <div>PHONE</div>
+              <div>+92-3342007188</div>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
