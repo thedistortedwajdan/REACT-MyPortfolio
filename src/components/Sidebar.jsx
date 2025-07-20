@@ -6,7 +6,7 @@ import phone from "../assets/phone.svg";
 
 export default function Sidebar() {
   return (
-    <div className="text-white bg-[#1E1E1F] border-[#383838] border-1 rounded-2xl  h-fit w-fit sticky top-10">
+    <div className="text-white bg-[#1E1E1F] border-[#383838] border-1 rounded-2xl  h-fit w-fit sticky top-24">
       <div className="flex flex-col items-center m-5">
         <ProfileImage />
         <div>Muhammad Wajdan Ismail</div>
