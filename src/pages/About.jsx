@@ -4,6 +4,7 @@ import java from "../assets/java.svg";
 import react from "../assets/react.svg";
 import nodejs from "../assets/nodejs.svg";
 import infinity from "../assets/infinity.svg";
+import sql from "../assets/sql.svg";
 
 function About() {
   return (
@@ -51,6 +52,13 @@ function About() {
         <Card
           logo={infinity}
           title={"DevOps"}
+          desc={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iusto nobis excepturi accusantium libero beatae."
+          }
+        />
+        <Card
+          logo={sql}
+          title={"SQL"}
           desc={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iusto nobis excepturi accusantium libero beatae."
           }
